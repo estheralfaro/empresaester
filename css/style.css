@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.barras{
+    display: none;
+}
+.desplegable{background: #1e1e1e}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+ul li {
+    padding: 10px;
+    list-style: none;
+}
+ul li a{
+    color: violet;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1rem;
+}
+nav ul li:hover{background: #ff5722; }
+@media(max-width: 850px){
+    
+    .barras{
+        background-color: #b34f4f;
+        display: block;
+    }
+    .desplegable{
+        background: none;
+        transform: translate(-100%);
+        transition: 0.5s;
+        font-size: 1.5rem;
+        width: 50%;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    a{
+        padding: 0;
+    }
+    a{
+        font-size: 1.5rem;
+        padding: 20px 0px 20px 20px;
+        display: block;
+        text-align: left;
+    }
+    .boton_menu :hover{
+        background-image: url('../icono.png');
+        background-color: #b34f4f;
+        background-repeat: no-repeat;
+        height: 30px;
+        width: 30px;
+        background-size: 30px 30px;
+        background-position: center;
+}
+button{
+    margin: 5px;
+    border: none;
+    margin: 10px 10px 20px;
+}
+.abrir_menu{
+    background: rgba;
+    backdrop-filter: blur(2px);
+    transform: translate(0%);
+    width: 30px;
+    height: 50%;
+    transition: 0.5s;
+}
+.colocar_x{
+    background-image: url('../icono.png');
+        background-color: #b34f4f;
+        background-repeat: no-repeat;
+        height: 30px;
+        width: 30px;
+        background-size: 30px 30px;
+        background-position: center;
+}
+}
+@media(max-width:500px){
+    .desplegable{
+        width: 100%;
+        height: 100vh;
+        font-size: 1.6rem;
+    }
+    
+    
+}
+.d1:hover{
+    background-color: pink;
+    text-align: center;
+    transform: scaleX(0.5);
+    transform: scale(1.02);
+}
+table :hover{
+    margin: auto;
+    img  {
+        border-radius: 180%;
+        transform: scale(1.02);
+        
+        
+    }
+    
+}
+body{
+    background-color: violet;
+}
+div{
+    text-align: center;
+}
+.ms1{
+    background-color: plum;
+}
+.vs1{
+    background-color: palevioletred;
+}
+.log2{
+    text-align: center;
+}
+.log3{
+    text-align: center;
+}
