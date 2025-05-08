@@ -58,7 +58,7 @@ nav ul li:hover{background: #ff5722; }
         text-align: left;
     }
     .boton_menu :hover{
-        background-image: url('../icono.png');
+        background-image: url('/boton.png');
         background-color: #b34f4f;
         background-repeat: no-repeat;
         height: 30px;
@@ -70,6 +70,7 @@ button{
     margin: 5px;
     border: none;
     margin: 10px 10px 20px;
+    
 }
 .abrir_menu{
     background: rgba;
@@ -102,15 +103,26 @@ button{
     background-color: pink;
     text-align: center;
     transform: scaleX(0.5);
-    transform: scale(1.02);
+    
 }
 table :hover{
     margin: auto;
     img  {
         border-radius: 180%;
         transform: scale(1.02);
+        box-shadow: 1px 1px 20px greenyellow;
         
         
+    }
+    .sidebar{
+        width: 60px;
+        height: 100%;
+        background-color: aqua;
+        padding: 20px;
+        box-sizing: border-box;
+        color: #b34f4f;
+        border-radius: 1rem 0 0 1rem;
+        transition: with .75s;
     }
     
 }
